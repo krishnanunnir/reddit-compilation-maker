@@ -1,8 +1,6 @@
 # Reddit Compilation Maker
 
 ## What does it do?
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AN4n_61bys0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Something stupid.
 
 Generate compilation videos of your favourite subreddit. Youtube has now been overrun by compilation videos lifted off from Reddit, which has been lifted of from somewhere else. 
