@@ -32,4 +32,5 @@ I first tried to create the program with ffmpeg run through subprocess in Python
 [ ] Parameter of the video sort for compilation can be changed.  
 [ ] Add an option such that user can choose which videos to include.  
 [ ] Set a time limit for the video. Makes compilation videos of nearly that length. 
-[ ] Better handling size of the output video
+[ ] Better handling size of the output video.
+[ ] Automatically uploads to youtube at regular intervals.
