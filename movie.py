@@ -51,10 +51,9 @@ def getSubredditCompilation(reddit, subreddit_name, limit_no,since):
             try:
                 print(audio_url_alternatvie)
                 urllib.request.urlretrieve(audio_url_alternatvie, audio_file_alternative)
-                video_alternative_clip = VideoFileClip(audio_file_alternative)
-                video_clip = video_clip.set_audio(video_alternative_clip.audio)
-            except:
-                pass
+                video_clip = video_clip.set_audio(AudioFileClip(audio_file_alternative))
+            except Exception as ex:
+                print(ex)
         final_clip.append(video_clip)
     final_video = concatenate_videoclips(final_clip,method='compose')
     current_timestamp = datetime.now().strftime("%Y_%m_%d_%I_%M_%S_%p")
