@@ -1,7 +1,6 @@
 # Reddit Compilation Maker
 
 ## What does it do?
-Something stupid.
 
 Generate compilation videos of your favourite subreddit. Youtube has now been overrun by compilation videos lifted off from Reddit, which has been lifted of from somewhere else. 
 
