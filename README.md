@@ -8,6 +8,8 @@ I wanted to make this process a bit simpler. So I made this tool.
 
 Specify a subreddit and get a readymade compilation video as the output. Its functionalities are limited at the time of making the README.md, which I plan to expand soon.
 
+More detailed explanation [here](https://krishnanunnir.github.io/reddit-compilation-maker/)
+
 ## How to run it?
 
 Create a .env file based on the .ex-env.
